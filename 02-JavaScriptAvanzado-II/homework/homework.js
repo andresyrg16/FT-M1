@@ -33,8 +33,8 @@ function cacheFunction(cb) {
     }
    return objec[x];
   }
-  
 }
+
 
 // Bind
 

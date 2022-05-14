@@ -3,14 +3,19 @@
 function BinarioADecimal(num) {
   // tu codigo aca
   // algo
-  let aux = num.split("").reverse()
-  let acumulador = 0;
-  for (let i = 0; i< aux.length; i++){
-      if(aux[i] != 0){
-        acumulador = acumulador + aux[i] * Math.pow(2,i)
-      }
-    }
-  return acumulador;
+ // let aux = num.split("").reverse()
+  //let acumulador = 0;
+  //for (let i = 0; i< aux.length; i++){
+    //  if(aux[i] != 0){
+      //  acumulador = acumulador + aux[i] * Math.pow(2,i)
+      //}
+    //}
+  //return acumulador;
+    let acc = 0;
+     for (let i = 0; i < num.length; i++) {
+       acc = acc + num[i] * 2 **(num.length -1 - i)
+}
+ return acc;
 }
 
 function DecimalABinario(num) {

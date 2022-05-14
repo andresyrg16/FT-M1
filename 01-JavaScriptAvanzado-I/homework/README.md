@@ -79,7 +79,7 @@ console.log(pm);//retorna "Franco"
 ¿Cuál crees que será el resultado de la ejecución de estas operaciones?:
 
 ```javascript
-6 / "3" // 3
+6 / "3" // 2
 "2" * "3" // 23
 4 + 5 + "px"// 9px
 "$" + 4 + 5 //$9
